@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Preferencias">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preferencias"
+        android:layout_centerHorizontal="true"
+
+        android:textSize="30dp"
+        android:layout_marginLeft="120dp"/>
+
+    <EditText
+        android:id="@+id/etFondo"
+        android:layout_width="375dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Color de fondo"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="15dp"/>
+
+
+    <EditText
+        android:id="@+id/etLetra"
+        android:layout_width="375dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Color de letra"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="375dp"
+        android:layout_height="48dp"
+        android:text="Guardar prefs"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+</LinearLayout>
